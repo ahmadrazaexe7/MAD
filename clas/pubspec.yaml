@@ -1,0 +1,28 @@
+name: travel_guide_app
+description: A Travel Guide Flutter assignment app.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/home_banner.jpg
+    - assets/images/attraction1.jpg
+    - assets/images/attraction2.jpg
+    - assets/images/attraction3.jpg
+    - assets/images/attraction4.jpg
+    - assets/images/attraction5.jpg
+    - assets/images/attraction6.jpg
